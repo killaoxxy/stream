@@ -17,7 +17,8 @@ function startBot(token) {
             applicationId: "1495239652758651000",
             assets: {
                 largeImage: "nya", 
-                largeText: "(๑ᵔ⤙ᵔ๑)"
+                smallImage: "nya",
+                largeText: "\u200b"
             },
             details: "\u200b",
             state: "\u200b"
