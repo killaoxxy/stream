@@ -11,7 +11,7 @@ function startBot(token) {
         
         client.user.setPresence({
             activities: [{
-                name: "\u200b", 
+                name: "˶ᵔ ᵕ ᵔ˶", 
                 type: "STREAMING",
                 url: "https://www.twitch.tv/directory" 
             }],
