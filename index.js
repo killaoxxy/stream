@@ -14,11 +14,13 @@ function startBot(token) {
             name: "(๑ᵔ⤙ᵔ๑)", 
             type: "STREAMING",
             url: "https://www.twitch.tv/directory",
-            applicationId: "1495239652758651000", // Must be a real App ID
+            applicationId: "1495239652758651000",
             assets: {
-                largeImage: "nya", // Must match the name in Dev Portal
-                largeText: "\u200b"
-            }
+                largeImage: "nya", 
+                largeText: "(๑ᵔ⤙ᵔ๑)"
+            },
+            details: "\u200b",
+            state: "\u200b"
         }],
         status: "online"
     });
