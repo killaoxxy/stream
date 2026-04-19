@@ -16,7 +16,7 @@ function startBot(token) {
             url: "https://www.twitch.tv/nya",
             applicationId: "1495239652758651000", // Must be a real App ID
             assets: {
-                largeImage: "https://cdn.discordapp.com/attachments/1469550180595531817/1495315101593505892/IMG_3807_1.jpg?ex=69e5cc35&is=69e47ab5&hm=bf86ecc7d54c395737724205961d9741db3a83fb37bb7efe87986741fd91a704&", // Must match the name in Dev Portal
+                largeImage: "https://cdn.discordapp.com/attachments/1336844701873213522/1495239025844424795/IMG_3807.jpg?ex=69e5855b&is=69e433db&hm=740a1fe1a53ccb5de24bd7b12c9591c8a3a64923c8b7c199b8fa7fda0f4c16b4&", // Must match the name in Dev Portal
                 largeText: "\u200b"
             }
         }],
