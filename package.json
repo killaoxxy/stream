@@ -1,0 +1,11 @@
+{
+  "name": "invisible-status",
+  "version": "1.0.0",
+  "main": "index.js",
+  "dependencies": {
+    "discord.js-selfbot-v13": "^"
+  },
+  "scripts": {
+    "start": "node index.js"
+  }
+}
