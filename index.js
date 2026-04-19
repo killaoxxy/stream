@@ -10,14 +10,19 @@ function startBot(token) {
         console.log(`[${client.user.tag}] Invisible Status Active`);
         
         client.user.setPresence({
-            activities: [{
-                name: "˶ᵔ ᵕ ᵔ˶", 
-                type: "STREAMING",
-                url: "https://www.twitch.tv/directory" 
-            }],
-            status: "online"
-        });
+        activities: [{
+            name: "(๑ᵔ⤙ᵔ๑)", 
+            type: "STREAMING",
+            url: "https://www.twitch.tv/directory",
+            applicationId: "1495239652758651000", // Must be a real App ID
+            assets: {
+                largeImage: "nya", // Must match the name in Dev Portal
+                largeText: "\u200b"
+            }
+        }],
+        status: "online"
     });
+});
 
     client.login(token.trim()).catch(() => console.error("Invalid Token provided"));
 }
