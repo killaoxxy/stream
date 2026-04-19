@@ -11,9 +11,9 @@ function startBot(token) {
         
         client.user.setPresence({
         activities: [{
-            name: "\u200b", 
+            name: "(๑ᵔ⤙ᵔ๑)", 
             type: "STREAMING",
-            url: "https://www.twitch.tv/directory",
+            url: "https://www.twitch.tv/nya",
             applicationId: "1495239652758651000", // Must be a real App ID
             assets: {
                 largeImage: "nya", // Must match the name in Dev Portal
