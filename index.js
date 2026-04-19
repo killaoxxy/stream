@@ -11,17 +11,14 @@ function startBot(token) {
         
         client.user.setPresence({
         activities: [{
-            name: "(๑ᵔ⤙ᵔ๑)", 
+            name: "\u200b", 
             type: "STREAMING",
             url: "https://www.twitch.tv/directory",
-            applicationId: "1495239652758651000",
+            applicationId: "1495239652758651000", // Must be a real App ID
             assets: {
-                largeImage: "nya", 
-                smallImage: "nya",
+                largeImage: "nya", // Must match the name in Dev Portal
                 largeText: "\u200b"
-            },
-            details: "\u200b",
-            state: "\u200b"
+            }
         }],
         status: "online"
     });
